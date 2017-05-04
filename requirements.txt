@@ -1,0 +1,1 @@
+sco-datastore>=0.5.0

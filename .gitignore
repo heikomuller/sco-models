@@ -1,0 +1,6 @@
+*.pyc
+build/
+dist/
+sco_models.egg-info/
+scomodels/venv/
+tests/data/
