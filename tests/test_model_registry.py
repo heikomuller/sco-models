@@ -29,7 +29,8 @@ class TestModelRegistryMethods(unittest.TestCase):
             self.registry.register_model(
                 model.identifier,
                 model.properties,
-                model.parameters
+                model.parameters,
+                model.outputs
             )
             count += 1
             models.append(model.identifier)
@@ -54,7 +55,8 @@ class TestModelRegistryMethods(unittest.TestCase):
             self.registry.register_model(
                 model.identifier,
                 model.properties,
-                model.parameters
+                model.parameters,
+                model.outputs
             )
             count += 1
         listing = self.registry.list_models()
@@ -70,7 +72,8 @@ class TestModelRegistryMethods(unittest.TestCase):
             m = self.registry.register_model(
                 model.identifier,
                 model.properties,
-                model.parameters
+                model.parameters,
+                model.outputs
             )
             # Assert that identifier and name
             self.assertEqual(m.identifier, model.identifier)

@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='sco-models',
-    version='0.1.0',
+    version='0.2.0',
     description='Repository for registered models in the Standard Cortical Observer',
     keywords='neuroscience vision cortex ',
     author='Heiko Mueller',
